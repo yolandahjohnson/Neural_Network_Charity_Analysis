@@ -46,8 +46,18 @@ Using machine learning and neural networks, use the features in the provided dat
   - Layer two (2) has 50 neurons and activation function 'relu'
   - Layer three (3) has 20 neurons and activation function 'relu'
   - Outer layer has activation function 'sigmoid'
- The target model performance of 75% was not achieved. This model achieved a lower accuracy of 72%
   
+  The target model performance of 75% was not achieved. This model achieved a lower accuracy of 72%
   
+ - Optimization 2
+   The hidden layers and neurons stayed the same, however layer 3 activation function was changed to 'tanh':
+   - Layer one (1) has 100 neurons and activation function 'relu'
+   - Layer two (2) has 50 neurons and activation function 'relu'
+   - Layer three (3) has 20 neurons and activation function 'tanh'
+   - Outer layer has activation function 'sigmoid'
+   Additionally, 'AFFILIATION' column was removed.
+   
+   The target model performance of 75% was not achieved. This model achieved an even lower accuracy of 66%
 
 ## Summary
+The initial model had the highest accuracy score of 73%. With two attempts at optimization, the accuracy score dropped to 72% and 66%. Random Forest could be used because it combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.
