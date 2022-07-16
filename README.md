@@ -55,7 +55,7 @@ Using machine learning and neural networks, use the features in the provided dat
   
   The target model performance of 75% was not achieved. This model achieved a lower accuracy of 72%
   
-  ![accuracy2](https://user-images.githubusercontent.com/100816778/179341968-a3a95f93-cb69-486d-ba13-58e66c01e443.png)
+![accuracy2](https://user-images.githubusercontent.com/100816778/179341968-a3a95f93-cb69-486d-ba13-58e66c01e443.png)
   
  - Optimization 2
    The hidden layers and neurons stayed the same, however layer 3 activation function was changed to 'tanh':
@@ -65,13 +65,13 @@ Using machine learning and neural networks, use the features in the provided dat
    - Outer layer has activation function 'sigmoid'
    Additionally, 'AFFILIATION' column was removed.
    
-   ![define model 3](https://user-images.githubusercontent.com/100816778/179342055-5c99ca85-565c-4601-b817-5412cc19935c.png)
+![define model 3](https://user-images.githubusercontent.com/100816778/179342055-5c99ca85-565c-4601-b817-5412cc19935c.png)
    
-   ![removecolumn](https://user-images.githubusercontent.com/100816778/179342057-f9a59af0-4941-4adf-8719-665de5b67e3d.png)
+![removecolumn](https://user-images.githubusercontent.com/100816778/179342057-f9a59af0-4941-4adf-8719-665de5b67e3d.png)
    
    The target model performance of 75% was not achieved. This model achieved an even lower accuracy of 66%
    
-   ![accuracy3](https://user-images.githubusercontent.com/100816778/179342064-2c473a56-8964-469c-84c6-53356625e4c4.png)
+![accuracy3](https://user-images.githubusercontent.com/100816778/179342064-2c473a56-8964-469c-84c6-53356625e4c4.png)
 
 ## Summary
 The initial model had the highest accuracy score of 73%. With two attempts at optimization, the accuracy score dropped to 72% and 66%. Random Forest could be used because it combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision.
